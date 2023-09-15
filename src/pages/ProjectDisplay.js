@@ -25,7 +25,7 @@ function ProjectDisplay() {
           <GithubIcon />
         </a>
       )}
-      {id == 3 && (
+      {id == 2 && (
         <a
           href="https://github.com/shanu228/youtube-clone-project"
           target="_blank"
