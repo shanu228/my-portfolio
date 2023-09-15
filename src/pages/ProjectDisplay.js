@@ -15,10 +15,24 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-
-      <a href="https://github.com/shanu228" target="_blank">
-        <GithubIcon />
-      </a>
+      {id == 0 && (
+        <a href="https://github.com/shanu228/food-ordering-app" target="_blank">
+          <GithubIcon />
+        </a>
+      )}
+      {id == 1 && (
+        <a href="https://github.com/shanu228/netflix-gpt" target="_blank">
+          <GithubIcon />
+        </a>
+      )}
+      {id == 3 && (
+        <a
+          href="https://github.com/shanu228/youtube-clone-project"
+          target="_blank"
+        >
+          <GithubIcon />
+        </a>
+      )}
     </div>
   );
 }
